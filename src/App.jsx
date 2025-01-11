@@ -1,10 +1,19 @@
-function App() {
+import { Route, Router } from "react-router-dom";
+import Layout from "./components/layout/Layout";
+import Home from "./pages/home/Home";
+import Store from "./pages/store/Store";
 
+function App() {
   return (
     <>
-    <div>App page</div>
+      <Layout>
+        <Router>
+          <Route path="/" element={<Home />} />
+          <Route path="store" element={<Store />} />
+        </Router>
+      </Layout>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
