@@ -5,4 +5,10 @@
 html {
   direction: rtl;
   unicode-bidi: embed;
+  font-family: Nazanin;
+}
+
+@font-face {
+  font-family: Nazanin;
+  src: url(./font/Nazanin.ttf);
 }
