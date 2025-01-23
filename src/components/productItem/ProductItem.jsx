@@ -1,8 +1,7 @@
 import Product from "../../assets/Product.jpg";
-import Container from "../container/Container";
 export default function ProductItem() {
   return (
-    <div className="border m-5 p-3 rounded-md">
+    <div className="border m-5 p-3 rounded-md shadow-lg">
       <img src={Product} alt="Product" className=" rounded-lg" />
       <div className="flex justify-between px-1 py-3">
         <div>تونر آنوا</div>

@@ -7,27 +7,27 @@ export default function Store() {
     <Container>
       <div className="pt-8 m-5 text-2xl">محصولات</div>
       <div className="grid grid-cols-4">
-        <Link to={`/product/${1}`}>
+        <Link to={`/products/${1}`}>
           <ProductItem />
         </Link>
 
-        <Link to={`/product/${2}`}>
+        <Link to={`/products/${2}`}>
           <ProductItem />
         </Link>
 
-        <Link to={`/product/${3}`}>
+        <Link to={`/products/${3}`}>
           <ProductItem />
         </Link>
 
-        <Link to={`/product/${4}`}>
+        <Link to={`/products/${4}`}>
           <ProductItem />
         </Link>
 
-        <Link to={`/product/${5}`}>
+        <Link to={`/products/${5}`}>
           <ProductItem />
         </Link>
 
-        <Link to={`/product/${6}`}>
+        <Link to={`/products/${6}`}>
           <ProductItem />
         </Link>
       </div>
