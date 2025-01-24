@@ -6,7 +6,7 @@ export default function Store() {
   return (
     <Container>
       <div className="pt-8 m-5 text-2xl">محصولات</div>
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <Link to={`/products/${1}`}>
           <ProductItem />
         </Link>
