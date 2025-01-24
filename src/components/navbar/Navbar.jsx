@@ -22,12 +22,14 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <button>
-                <LuShoppingBasket />
-              </button>
+              <Link to="/cart">
+                <button>
+                  <LuShoppingBasket />
+                </button>
+              </Link>
             </li>
           </ul>
-          <img src={logo} alt="logo" className="h-12 w-24" />
+          <img src={logo} alt="logo" width={120} height={120} />
         </div>
       </Container>
     </div>
